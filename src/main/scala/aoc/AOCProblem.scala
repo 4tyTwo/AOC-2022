@@ -1,11 +1,11 @@
 package aoc
 
-trait AOCProblem {
+trait AOCProblem[A] {
 
   val day: Int
 
-  def solve1: Int
-  def solve2: Int
+  def solve1: A
+  def solve2: A
 
   def printAnswers: Unit = {
     val (t1, r1) = time(solve1)

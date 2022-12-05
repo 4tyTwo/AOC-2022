@@ -1,6 +1,6 @@
 package aoc
 
-case object Day1 extends AOCProblem {
+case object Day1 extends AOCProblem[Int] {
 
   val day: Int = 1
 
@@ -21,7 +21,7 @@ case object Day1 extends AOCProblem {
   }
 }
 
-case object Day1Alt extends AOCProblem {
+case object Day1Alt extends AOCProblem[Int] {
   // More efficient, less scala-like
   val day = 1
   private val input = scala.io.Source.fromFile("./priv/day1/input.txt").getLines().toSeq

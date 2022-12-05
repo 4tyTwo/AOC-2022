@@ -2,7 +2,7 @@ package aoc
 
 object Main extends App {
 
-  val problems: Seq[AOCProblem] = Seq(
+  val problems: Seq[AOCProblem[_]] = Seq(
     Day1,
     Day2,
     Day3,
