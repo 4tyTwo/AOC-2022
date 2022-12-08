@@ -9,7 +9,8 @@ object Main extends App {
     Day4,
     Day5,
     Day6,
-    Day7
+    Day7,
+    Day8
   )
   problems.foreach(_.printAnswers)
 }
